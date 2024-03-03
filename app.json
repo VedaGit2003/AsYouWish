@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Asyouwish",
+    "slug": "Asyouwish",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/appicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/AsyouWish.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E3E6F4"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptiveicon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.veda6.Asyouwish"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "66fa3840-63ee-4dcd-9c5b-5530dcc87c82"
+      }
+    }
+  }
+}
